@@ -47,7 +47,7 @@ while (i <= 2 )
 						printf("DOMYSLNY POWROT DO MENU\n");
 						break;
 					}
-					while (wyplata <= stan) {
+					if (wyplata <= stan) {
 						stan = stan - wyplata;
 						printf("Po wyplacie stan twojego konta wynosi %.2f zlotych\n", stan);
 						printf("DOMYSLNY POWROT DO MENU\n");
